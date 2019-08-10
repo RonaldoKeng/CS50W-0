@@ -16,11 +16,27 @@ $tedx-color: #e62b1e;
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.intro h1 {
-    font-weight: initial
+.intro {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    h3, h5, p {
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    h1 {
+        font-weight: initial
+    }
+    h3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    h5 {
+        font-family: 'Times New Roman', Times, serif
+    }
 }
 p::first-letter {
-    font-size: 32px;
+    font-weight: bolder;
 }
 table {
     td {
