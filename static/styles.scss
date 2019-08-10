@@ -2,9 +2,10 @@ $tedx-color: #e62b1e;
 
 #tedx-table {
     table-layout: auto;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4%;
 }
 #tedx {
     color: $tedx-color;
@@ -43,7 +44,7 @@ h1 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9f9
+    background-color: #f9f9f9;
 }
 p::first-letter {
     font-weight: bolder;
