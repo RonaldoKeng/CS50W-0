@@ -7,6 +7,7 @@
 
 #tedx {
   color: #e62b1e;
+  font-weight: bold;
 }
 
 .trekzi-images {
@@ -29,6 +30,8 @@ h1, table td {
   margin-bottom: 5%;
 }
 .intro h1, .intro table td, table .intro td {
+  margin-top: 10%;
+  margin-bottom: 10%;
   font-weight: initial;
 }
 .intro h3 {
@@ -36,6 +39,14 @@ h1, table td {
 }
 .intro h5 {
   font-family: "Times New Roman", Times, serif;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
 }
 
 p::first-letter {
