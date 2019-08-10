@@ -4,6 +4,14 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 4%;
+  margin-bottom: 8%;
+  border: #e62b1e 1px solid;
+}
+#tedx-table th {
+  background-color: #e62b1e;
+}
+#tedx-table td, #tedx-table th {
+  border: #e62b1e 1px solid;
 }
 
 #tedx {
@@ -40,6 +48,10 @@ h1, table td {
 }
 .intro h5 {
   font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  margin-bottom: 4%;
 }
 
 .footer {
